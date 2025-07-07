@@ -4,6 +4,13 @@ This is the official repo of the paper [CrAM: Credibility-Aware Attention Modifi
 
 ## Overview
 
+### Environment Setup
+- **Python Version**: 3.8.19
+- To install the required dependencies, run the following command:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
 ### Results
 
 - All of our results can be found in the following folders:
