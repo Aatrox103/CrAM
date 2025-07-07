@@ -1,0 +1,13 @@
+backoff==2.2.1
+colorama==0.4.6
+fire==0.6.0
+langchain==0.3.26
+numpy==1.24.3
+openai==0.27.7
+packaging==25.0
+scipy==1.16.0
+sentence_transformers==2.7.0
+torch==2.3.0
+torch_xla==2.7.0
+tqdm==4.66.2
+transformers==4.40.2
