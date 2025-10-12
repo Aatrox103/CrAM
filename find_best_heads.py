@@ -11,7 +11,7 @@ if __name__ == "__main__":
         LLM="YOUR_OWN_MODEL_PATH/Meta-Llama-3-8B-Instruct",
         output_dir="datasets/nq",
     )
-    # calculating the mean prob change of each head across all data, and sort the results accordingly
+    # calculating the mean prob change of each head across all data, and sorting the results accordingly
     casual_tracing_combine_all(input_path="datasets/nq/llama3")
     
     find_top_k_heads(input_path="datasets/nq/llama3", topk=100)
